@@ -6,31 +6,32 @@
     <title>Travel Agency</title>
 
     <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
 </head>
 <body>
     <!-- -- -- -- -- THIS IS HEADER -- -- -- -->
- <header class="container-lg justify-content-around align-items-center">
-     <a class="logo" href=""><img src="asset/image/Jadoo.png" alt="Travel Agency Logo"></a>
-     <nav>
-        <ul class="nav container-sm justify-content-end align-items-start">
-            <li class="nav-item px-4"><a class="nav-item"  href="">Destinations</a></li>
-            <li class="nav-item px-4"><a class="nav-item" href="">Hotels</a></li>
-            <li class="nav-item px-4"><a class="nav-item" href="">Flights</a></li>
-            <li class="nav-item px-4"><a class="nav-item" href="">Bookings</a></li>
-            <li class="nav-item px-4"><a class="nav-item" href="">Login</a></li>
-            <li class="nav-item px-4"><a class="btn btn-outline-secondary btn-sm">Sign Up</a></li>
-            <li class="nav-item px-4"><select name="" id="">
+ <header class="container-fluid d-flex justify-content-between align-items-start bg-transparent position-relative">
+     <img class="z-0 position-absolute img-fluid" src="asset/image/Decore.png" alt="">
+
+      <a class="logo position-relative" href=""><img class="img-fluid" src="asset/image/Jadoo.png" alt="Travel Agency Logo"></a>
+         <ul class="nav container-xl d-flex flex-row justify-content-end position-absolute z-10" style="list-style: none;" >
+            <li class="nav-item"><a class="nav-item"  href="">Destinations</a></li>
+            <li class="nav-item"><a class="nav-item" href="">Hotels</a></li>
+            <li class="nav-item"><a class="nav-item" href="">Flights</a></li>
+            <li class="nav-item"><a class="nav-item" href="">Bookings</a></li>
+            <li class="nav-item"><a class="nav-item" href="">Login</a></li>
+            <li class="nav-item"><a class="btn btn-outline-secondary btn-sm">Sign Up</a></li>
+            <li class="nav-item"><select name="" id="">
               <option value="language">EN</option>
               <option value="language">DE</option></select>
             </li>
-        </ul>
-     </nav>
+          </ul>
  </header>
 
      
      <!-- -- -- -- -- MAIN-HERO : 1/7 -- -- -- -- -->
-<main class="container-fluid"> 
-    <section>
+<main class="d-flex justify-content-between align-items-start position-relative"> 
+    <section class="d-flex flex-column m-5">
         <article>BEST DESTINATIONS AROUND THE WORLD</article>
         <article><div>Travel, enjoy</div>
                  <div>and live a new</div>
@@ -45,11 +46,10 @@
         </div>
     </section>
        
-    <section>
-        <img src="asset/image/Decore.png" alt="">
-        <img src="asset/image/plane.png" alt="">
-        <img src="asset/image/plane.png" alt="">
-        <img src="asset/image/Traveller 1.png" alt="">
+    <section class="position-relative" style="width: 100%; height: auto;">
+        <img class="z-1 position-absolute img-fluid" src="asset/image/plane.png" alt="">
+        <img class="z-2 position-absolute img-fluid" src="asset/image/plane.png" alt="">
+        <img class="z-3 position-absolute img-fluid" src="asset/image/Traveller 1.png" alt="">
     </section>
 </main>
 
